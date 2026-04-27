@@ -155,9 +155,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BankingProgram.cpp" />
+    <ClCompile Include="DispalyBalance.cpp" />
     <ClCompile Include="MakeSelection.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DispalyBalance.h" />
     <ClInclude Include="MakeSelection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
