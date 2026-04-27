@@ -17,7 +17,7 @@ double makeWithdrawal(double balance)
     else if (amount == 0)
     {
         std::cout << "Withdrawal cancelled. Returning to main menu.\n";
-        return 0;
+        return balance;
     }
     
     else if (amount < balance)

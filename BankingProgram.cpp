@@ -1,7 +1,7 @@
 #include "MakeSelection.h"
 #include "DisplayBalance.h"
 #include "MakeWithdrawal.h"
-//#include "MakeDeposit.h"
+#include "MakeDeposit.h"
 
 
 int main()
@@ -22,14 +22,15 @@ int main()
                     selection = makeSelection();
                     break;
                 case 3:
-                   // balance = makeDeposit(balance);
+                    balance = makeDeposit(balance);
+                    selection = makeSelection();
                     break;
                 case 4:
                 std::cout << "Thank you for banking with NelNel Banks. Bye-Bye!\n";
                     break;
                 default:
                     std::cout << "Invalid selection. Please try again.\n";
-                
+                    selection = makeSelection();
             }
          }
    

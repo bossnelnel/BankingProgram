@@ -156,11 +156,13 @@
   <ItemGroup>
     <ClCompile Include="BankingProgram.cpp" />
     <ClCompile Include="DisplayBalance.cpp" />
+    <ClCompile Include="MakeDeposit.cpp" />
     <ClCompile Include="MakeSelection.cpp" />
     <ClCompile Include="MakeWithdrawal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DisplayBalance.h" />
+    <ClInclude Include="MakeDeposit.h" />
     <ClInclude Include="MakeSelection.h" />
     <ClInclude Include="MakeWithdrawal.h" />
   </ItemGroup>
