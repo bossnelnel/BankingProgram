@@ -26,14 +26,14 @@ int main()
                     selection = makeSelection();
                     break;
                 case 4:
-                std::cout << "Thank you for banking with NelNel Banks. Bye-Bye!\n";
                     break;
                 default:
                     std::cout << "Invalid selection. Please try again.\n";
                     selection = makeSelection();
             }
          }
-   
+    std::cout << "Thank you for banking with NelNel Banks. Bye-Bye!\n";
+
     
     return 0;
 }
