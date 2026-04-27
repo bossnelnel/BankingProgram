@@ -1,4 +1,4 @@
-﻿#include "DispalyBalance.h"
+﻿#include "DisplayBalance.h"
 
 void displayBalance(double balance)
 {

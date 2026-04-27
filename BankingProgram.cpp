@@ -1,7 +1,8 @@
 #include "MakeSelection.h"
-#include "DispalyBalance.h"
+#include "DisplayBalance.h"
+#include "MakeWithdrawal.h"
+//#include "MakeDeposit.h"
 
-#include <iostream>
 
 int main()
 {
@@ -14,10 +15,11 @@ int main()
             {
                 case 1:
                     displayBalance(balance);
-                   selection = makeSelection();
+                    selection = makeSelection();
                     break;
                 case 2:
-                   // balance = makeWithdrawal(balance);
+                    balance = makeWithdrawal(balance);
+                    selection = makeSelection();
                     break;
                 case 3:
                    // balance = makeDeposit(balance);
